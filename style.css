@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+header {
+  padding: 20px 0;
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+}
+header .container h1 {
+  color: #976F77;
+}
+header .container button {
+  width: 70px;
+  background-color: white;
+  border-radius: 7px;
+  border: solid rgba(44, 44, 44, 0.2549019608) 1px;
+}
+
+.mainer {
+  display: flex;
+}
+
+img {
+  width: 50%;
+}
+
+.info {
+  padding-left: 30px;
+  margin-top: 10px;
+  width: 50%;
+}
+.info .card {
+  width: 376px;
+  height: 40px;
+  margin-top: 40px;
+  border-radius: 10px;
+}
+.info .p1 {
+  font-size: 18px;
+  color: #999999;
+}
+.info .p2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #999999;
+}
+.info h2 {
+  font-weight: normal;
+  color: #222222;
+}
+.info button {
+  transition: 0.3s;
+  cursor: pointer;
+  border: none;
+}
+.info button:hover {
+  opacity: 0.5;
+}
+.info button.activeColor {
+  border: 1px solid #222;
+}
+.info .colors {
+  margin-top: 46px;
+  margin-bottom: 40px;
+  display: flex;
+  gap: 8px;
+}
+.info .colors button {
+  width: 30px;
+  height: 30px;
+  border-radius: 1000px;
+}
+.info .colors button.yellow {
+  background-color: #D7B281;
+}
+.info .colors button.blue {
+  background-color: #2e4a8b;
+}
+.info .colors button.pink {
+  background-color: #976F77;
+}
+.info .sizes {
+  gap: 10px;
+  display: flex;
+}
+.info .sizes button {
+  width: 60px;
+  height: 40px;
+  background-color: white;
+  border: 1px solid rgba(78, 78, 78, 0.462745098);
+  border-radius: 10px;
+}
+.info .sizes button.active {
+  border: 1px solid #222;
+}
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+}/*# sourceMappingURL=style.css.map */
